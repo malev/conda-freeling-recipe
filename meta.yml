@@ -1,0 +1,23 @@
+package:
+  name: freeling
+  version: 3.1
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - automake
+    - boost
+    - Icu4c
+    - libtool
+
+source:
+  fn: freeling-3.1.tar.gz [not win]
+  url: http://devel.cpl.upc.edu/freeling/downloads/32 [not win]
+  md5: 42dbf7eec6e5c609e10ccc60768652f220d24771 [not win]
+
+about:
+  home: http://nlp.lsi.upc.edu/freeling/
+  license: GLP
+  summary: An open source suite of language analyzers
